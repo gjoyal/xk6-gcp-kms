@@ -167,6 +167,7 @@ func (k *keeper) ErrorCode(err error) gcerrors.ErrorCode {
 	return gcerr.GRPCCode(err)
 }
 
+// fff
 // KeeperOptions controls Keeper behaviors.
 // It is provided for future extensibility.
 type KeeperOptions struct{}
